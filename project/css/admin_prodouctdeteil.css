@@ -1,0 +1,69 @@
+body {
+    width: 900px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: cornflowerblue;
+}   
+
+.site-tittle {
+    font-size: 15px; 
+}
+
+.site-tittle:hover {
+    font-size: 20px;
+    color: rgb(99, 90, 90);
+    text-decoration: underline;
+}
+
+.nav__wrapper{
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 15px;
+    font-size: 10px;
+}
+/* ----------------------------------------- */
+
+.warapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+}
+
+.item {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+   
+}
+
+.item td,th{
+    border: 2px black solid;
+}
+
+.item input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+form .submit {
+    width: 70px;
+}
