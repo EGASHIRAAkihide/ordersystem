@@ -67,9 +67,6 @@ if(!empty($_POST['company_name']) and
     <meta charset="UTF-8">
     <meta name="viewport" content="width=,initial-scale=1.0">
     <link href="css/admin_register.css" rel="stylesheet">
-    <link href="js/commos.js">
-
-
     <title>新規登録画面/登録情報</title>
 </head>
 <body>
@@ -89,7 +86,7 @@ if(!empty($_POST['company_name']) and
 
                 <div class="form-item2">
                     <label>電話番号</label>
-                    <input type="text" name="tell_num">
+                    <input type="te;" name="tell_num">
                 </div>
 
                 <div class="form-item2">
@@ -99,11 +96,11 @@ if(!empty($_POST['company_name']) and
 
                 <div class="form-item2">
                     <label>メールアドレス</label>
-                    <input type="text" name="mail_addless">
+                    <input type="email" name="mail_addless">
                 </div>
                 <div class="form-item2">
                     <label>パスワード</label>
-                    <input type="text" name="pass">
+                    <input type="password" name="pass">
                 </div>
                 <div class="form-item2">
                     <label>所在地</label>

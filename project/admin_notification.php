@@ -17,7 +17,7 @@ $charge_name = $_SESSION['charge_name'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/admin_notification.css" rel="stylesheet">
-    <title>登録情完了通知画面</title>
+    <title>登録完了通知画面</title>
 </head>
 <body>
       <header class="site-header">    
@@ -41,12 +41,12 @@ $charge_name = $_SESSION['charge_name'];
 
                 <div class="item">
                     <label>電話番号</label>
-                    <input type="text" value="<?php echo $tell_num;?>">                      
+                    <input type="tel" value="<?php echo $tell_num;?>">                      
                 </div>
 
                 <div class="item">
                     <label>メールアドレス</label>
-                    <input type="text" value="<?php echo $mail_ddless;?>">                
+                    <input type="email" value="<?php echo $mail_ddless;?>">                
                 </div>
 
                 <div class="item">

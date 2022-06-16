@@ -37,7 +37,7 @@
 
                 $stmt->execute();
 
-                header('location: admin_prodouctdeteil.php');
+                header('location: admin_productdetail.php');
                 exit();
              
 
@@ -52,7 +52,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/admin_prodouctdeteil.css">
+    <link rel="stylesheet" href="css/admin_productdetail.css">
     <title>商品管理画面</title>
 </head>
 <body>
@@ -63,14 +63,14 @@
             <nav class="nav">
                 <ul class="nav__wrapper">
                     <li class="nav__item"><a href="admin_notification.php">企業登録情報</a></li>
-                    <li class="nav__item"><a href="admin_prodouctdeteil.php">取扱商品詳細</a></li>
+                    <li class="nav__item"><a href="admin_productdetail.php">取扱商品詳細</a></li>
                     <li class="nav__item"><a href="admin_login.php">ログアウト</a></li>
 
                 </ul>
             </nav>
       </header>
 
-      <div class="warapper">
+      <div class="wrapper">
             <div class="item">
                 <p>取扱商品追加フォーム</p>
             

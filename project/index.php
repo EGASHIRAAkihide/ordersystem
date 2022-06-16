@@ -91,7 +91,7 @@ if (!empty($_POST["mail_addless"])) {
             </div>
             <div class="form-item2">
                 <label>PASS</label>
-                <input type="text" name="pass" title="username" placeholder="pass">
+                <input type="password" name="pass" title="username" placeholder="pass">
             </div>
 
             <div class="form-item2">

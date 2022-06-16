@@ -98,16 +98,16 @@ if(!empty($_POST['company_name']) and
 
                 <div class='form-item2'>
                     <label>電話番号</label>
-                    <input type='text' name='tell_num'>
+                    <input type='tel' name='tell_num'>
                 </div>
 
                 <div class='form-item2'>
                     <label>メールアドレス</label>
-                    <input type='text' name='mail_addless'>
+                    <input type='email' name='mail_addless'>
                 </div>
                 <div class='form-item2'>
                     <label>パスワード</label>
-                    <input type='text' name='pass'>
+                    <input type='password' name='pass'>
                 </div>
                 <div class='form-item2'>
                     <label>所在地</label>

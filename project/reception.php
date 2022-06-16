@@ -57,11 +57,11 @@
                     </div>
                     <div class="form-item">
                         <label>電話番号</label>
-                        <input type="text">
+                        <input type="tel">
                     </div>
                     <div class="form-item">
                         <label>メールアドレス</label>
-                        <input type="text">
+                        <input type="email">
                     </div>
                     <div class="form-item">
                         <label>郵便番号</label>

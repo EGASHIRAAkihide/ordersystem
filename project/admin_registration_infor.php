@@ -41,12 +41,12 @@ $charge_name = $_SESSION['charge_name'];
 
                 <div class="item">
                     <label>電話番号</label>
-                    <input type="text" value="<?php echo $tell_num;?>">                      
+                    <input type="tel" value="<?php echo $tell_num;?>">                      
                 </div>
 
                 <div class="item">
                     <label>メールアドレス</label>
-                    <input type="text" value="<?php echo $mail_ddless;?>">                
+                    <input type="email" value="<?php echo $mail_ddless;?>">                
                 </div>
 
                 <div class="item">

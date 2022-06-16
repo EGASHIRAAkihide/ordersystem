@@ -21,7 +21,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/prodouctDetail.css">
+    <link rel="stylesheet" href="css/productDetail.css">
     <title>商品詳細</title>
 </head>
 <body>
@@ -39,7 +39,7 @@
     </header>
 
     <div class="wrapper">
-       <div class="prodouctDetail">
+       <div class="productDetail">
             <div class="content1"> 
                     <p class="detail">商品イメージ <img src="img/611dffc01122a.webp"></p>
                     
